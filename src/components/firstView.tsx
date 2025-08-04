@@ -22,7 +22,7 @@ function FirstView() {
           <div //picture circle
           className="w-[10cm] h-[10cm] mx-auto flex justify-center items-center"
           id="picture_circle">
-            <img src="/images/Farshad Arbab profile picture.png"
+            <img src={process.env.PUBLIC_URL + "/images/Farshad Arbab profile picture.png" }
             alt="تصویر پروفایل فرشاد ارباب"
             className="rounded-full w-[93%] h-[93%]"
             />

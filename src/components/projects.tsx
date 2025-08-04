@@ -36,7 +36,7 @@ function Projects(){
                     projects.map(
                         (project, index) => 
                         <div>
-                            <img src={"/images/" + project.image} alt={project.alt} 
+                            <img src={process.env.PUBLIC_URL + "/images/" + project.image} alt={project.alt} 
                             className="" />
                             <span className="">{project.title}</span>
                         </div>
