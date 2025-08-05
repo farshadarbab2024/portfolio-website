@@ -1,0 +1,5 @@
+#chert{
+    display: grid ; 
+    grid-template-columns: 1fr ; 
+    gap: 40px 0px ; 
+}

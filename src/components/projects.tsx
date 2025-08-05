@@ -1,3 +1,5 @@
+import "../css/projects.css" ; 
+
 function Projects(){
     const projects = [
         {
@@ -27,18 +29,19 @@ function Projects(){
     
     return(
         <>
-            <h2 className=""></h2>
-            <div className="grid grid-flow-col gap-4" style={{
-                gridTemplateColumns: "repeat(1,1fr)",
-                gridAutoRows: "100px", 
-            }}>
+            <h2 className="font-semibold text-[24px] text-center mt-[25px] color-black leading-normal">‌مشارکت در این پروژه‌ها به من دید برنامه‌نویسی داده است</h2>
+            <div className="mt-16" id="chert" >
                 {
                     projects.map(
                         (project, index) => 
                         <div>
-                            <img src={process.env.PUBLIC_URL + "/images/" + project.image} alt={project.alt} 
-                            className="" />
-                            <span className="">{project.title}</span>
+                            <img 
+                            src={process.env.PUBLIC_URL + "/images/" + project.image}
+                            className="w-[100px] mx-auto"
+                            alt={project.alt}
+                            />
+                            <span className="block text-center mt-2 font-semibold text-[28px] ">{project.title}</span>
+                            
                         </div>
                     )
                 }

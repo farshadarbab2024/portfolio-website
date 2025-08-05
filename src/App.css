@@ -1,3 +1,9 @@
+:root{
+    --gray: #EAEAEA;
+    --black: #111111;
+
+}
+
 .color-black{
     color: var(--black) ; 
 }
