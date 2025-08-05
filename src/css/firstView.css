@@ -5,3 +5,8 @@
     border-radius: 50% ; 
     
 }
+
+#languages_div{
+    border: 2px solid var(--black) ; 
+    
+}

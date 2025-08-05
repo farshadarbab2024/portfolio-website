@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import React, { useRef } from "react";
 import "../css/firstView.css" ; 
 
 function FirstView() {
@@ -16,11 +16,16 @@ function FirstView() {
           <source src="background-video.mp4" type="video/mp4" />
         </video>
 
+        <div className="flex justify-center w- " id="languages_div">
+          <img src={process.env.PUBLIC_URL + "/images/language.png"} alt="language" />
+          <img src={process.env.PUBLIC_URL + "/images/down.png"} alt="down" />
+        </div>
+
         <div className="z-10 absolute top-1/2 right-1/2 translate-x-1/2
-        -translate-y-1/2 w-[25rem] max-w-[85vw]">
+        -translate-y-1/2 w-[85vw]">
 
           <div //picture circle
-          className="w-[10cm] h-[10cm] mx-auto flex justify-center items-center"
+          className="w-[60vw] h-[60vw] mx-auto flex justify-center items-center"
           id="picture_circle">
             <img src={process.env.PUBLIC_URL + "/images/Farshad Arbab profile picture.png" }
             alt="تصویر پروفایل فرشاد ارباب"
@@ -28,10 +33,10 @@ function FirstView() {
             />
           </div>
 
-          <h1 className="block text-center font-black color-black text-[2.4rem] mt-8" >{fullName}</h1>
-          <span className="block text-center text-[#888888] text-[1.3rem] mt-2">{jobTitle}</span>
-          <button className="w-[10rem] h-[3.3rem] background-color-black color-gray 
-          rounded-[0.3rem] mx-auto block mt-8 text-[1.5rem]">نمونه کارها</button>
+          <h1 className="block text-center font-black color-black text-[8vw] mt-8" >{fullName}</h1>
+          <span className="block text-center text-[#888888] text-[4.3vw]">{jobTitle}</span>
+          <button className="w-[45vw] h-[11vw] background-color-black color-gray 
+          rounded-[0.5rem] mx-auto block mt-8 text-[4.6vw]">نمونه کارها</button>
         </div>
       </section>
     );
