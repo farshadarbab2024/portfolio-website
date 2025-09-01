@@ -620,7 +620,7 @@ const allTexts = {
 
       {
         name: "Redux",
-        image: "Redux.svg",
+        image: "redux.svg",
         alt: "Redux",
         color: "#764ABC",
         details: [
