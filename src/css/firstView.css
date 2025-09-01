@@ -8,3 +8,8 @@
     border: 2px solid var(--black) ; 
     
 }
+
+#background_video::-webkit-media-controls-start-playback-button {
+    display: none !important;
+    -webkit-appearance: none;
+}

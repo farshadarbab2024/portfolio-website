@@ -1,6 +1,6 @@
 :root{
     --gray: #EAEAEA;
-    --black: #111111;
+    --black: #252525;
 
 }
 
@@ -18,4 +18,8 @@
 
 .border-black{
     border-color: var(--black) ; 
+}
+
+.direction-ltr{
+    direction: ltr ; 
 }
