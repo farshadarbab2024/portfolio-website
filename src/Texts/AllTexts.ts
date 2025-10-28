@@ -731,7 +731,7 @@ const allTexts = {
 
       {
         name: "Zustand",
-        image: "zustand.png",
+        image: "Zustand.png",
         alt: "Zustand",
         color: "#453e38",
         details: [
