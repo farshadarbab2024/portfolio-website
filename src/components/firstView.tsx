@@ -1,10 +1,10 @@
-import "../CSS/FirstView.css";
+import "../css/FirstView.css";
 import { Button } from "antd";
 import { Link } from "react-scroll";
-import { useLanguageStore } from "../States/Store";
+import { useLanguageStore } from "../states/Store";
 import { motion } from "framer-motion";
 import { isMobile } from "react-device-detect";
-
+import React from "react";
 function FirstView() {
   const { websiteTexts, direction, oppositeDirection } = useLanguageStore();
 

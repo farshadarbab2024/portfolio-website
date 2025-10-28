@@ -1,8 +1,8 @@
-import { useLanguageStore } from "../States/Store";
-import type { Project } from "../Texts/AllTexts";
+import { useLanguageStore } from "../states/Store";
+import type { Project } from "../texts/AllTexts";
 import { motion } from "framer-motion";
 import { isDesktop } from "react-device-detect" ; 
-
+import React from "react";
 function Projects() {
   const { websiteTexts, direction } = useLanguageStore();
 

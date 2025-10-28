@@ -1,10 +1,10 @@
 import { GlobalOutlined, DownOutlined, CheckOutlined } from "@ant-design/icons";
 import { Button, Dropdown } from "antd";
-import "../CSS/LanguageSelect.css";
+import "../css/LanguageSelect.css";
 import { useEffect, useState } from "react";
-import { useLanguageStore } from "../States/Store";
+import { useLanguageStore } from "../states/Store";
 import { useNavigate } from "react-router-dom";
-
+import React from "react";
 function LanguageSelect() {
   const { language, websiteTexts } = useLanguageStore();
 

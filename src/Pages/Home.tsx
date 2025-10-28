@@ -1,15 +1,14 @@
-import { ConfigProvider } from "antd";
-import LanguageSelect from "../Components/LanguageSelect";
-import FirstView from "../Components/FirstView";
-import SecondSection from "../Components/SecondSectoin";
-import SkillsSection from "../Components/SkillsSection";
-import Portfolios from "../Components/Portfolios";
-import Footer from "../Components/Footer";
+import LanguageSelect from "../components/LanguageSelect";
+import FirstView from "../components/FirstView";
+import SecondSection from "../components/SecondSection";
+import SkillsSection from "../components/SkillsSection";
+import Portfolios from "../components/Portfolios";
+import Footer from "../components/Footer";
 import { useEffect } from "react";
-import theme from "../Theme/ThemeConfig";
 import { useParams } from "react-router-dom";
-import { useLanguageStore } from "../States/Store";
-import allTexts from "../Texts/AllTexts";
+import { useLanguageStore } from "../states/Store";
+import allTexts from "../texts/AllTexts";
+import React from "react";
 
 function Landing() {
   const { language } = useParams();
@@ -24,14 +23,14 @@ function Landing() {
       lang = "Persian";
       direction = "rtl";
       oppositeDirection = "ltr";
-      document.title = "وبسایت معرفی فرشاد ارباب | کارآموز فرانت‌اند(React)";
+      document.title = "وبسایت معرفی فرشاد ارباب | برنامه نویس جونیور فرانت‌اند(React)";
       sign = -1;
     } else {
       lang = "English";
       direction = "ltr";
       oppositeDirection = "rtl";
       document.title =
-        "Intern Front-End Developer (React) | Farshad Arbab's Portfolio Website";
+        "Junior Front-End Developer (React) | Farshad Arbab's Portfolio Website";
       sign = 1;
     }
 

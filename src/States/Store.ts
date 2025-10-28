@@ -1,5 +1,5 @@
 import { create } from "zustand" ; 
-import allTexts from "../Texts/AllTexts" ;  
+import allTexts from "../texts/AllTexts" ;  
 
 type LanguageStore = {
     language: ("English" | "Persian"), 

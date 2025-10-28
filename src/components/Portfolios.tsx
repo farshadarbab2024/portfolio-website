@@ -1,9 +1,9 @@
 import { Button, Card, Tag } from "antd";
 import { GithubOutlined } from "@ant-design/icons";
-import { useLanguageStore } from "../States/Store";
-import type { Portfolio } from "../Texts/AllTexts";
+import { useLanguageStore } from "../states/Store";
+import type { Portfolio } from "../texts/AllTexts";
 import { motion } from "framer-motion";
-
+import React from "react";
 function Portfolios() {
   const { websiteTexts, direction } = useLanguageStore();
   return (

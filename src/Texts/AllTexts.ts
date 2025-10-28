@@ -304,20 +304,21 @@ const allTexts = {
         ],
       },
 
-      // {
-      //     name: "Adobe XD",
-      //     image: "Adobe XD.png",
-      //     alt: "ادوبی ایکس دی",
-      //     color: "#FF61F6",
-      //     details: [
-      //         "Applying borders, backgrounds, opacity, and shadows",
-      //         "Designing user-friendly interfaces" ,
-      //         "Managing typography (line-height, font size, font weight, etc)",
-      //         "Importing and arranging images and assets",
-      //         "Creating responsive designs for mobile, tablet, and desktop",
-      //         "Understanding principles of color theory"
-      //     ]
-      // },
+      {
+        name: "Figma",
+        image: "figma.png",
+        alt: "figma",
+        color: "#FF61F6",
+        details: [
+          "Design user-friendly interfaces",
+          "Build reusable components",
+          "Use popular plugins like Iconify",
+          "Create and reuse custom fills",
+          "Draw and export shapes",
+          "Work efficiently with Figma shortcuts",
+          "...",
+        ],
+      },
 
       {
         name: "Ant Design",
@@ -395,7 +396,7 @@ const allTexts = {
 
     //AboutMe
     aboutMeText:
-      "Although I have completed several front-end practice projects, I have not yet had official experience working as a front-end developer in a company, and I am currently seeking an internship opportunity. My background in Backend and UI/UX design, as two supporting skills, helps me work more independently on projects. In 90% of cases, I rely on English resources for troubleshooting, research, and watching courses.",
+      "I have hands-on experience working as a Junior Front-End Developer in companies, where I collaborated closely with development teams. Designing, coding, and problem-solving are part of my daily routine. My background in Backend Development and UI/UX Design helps me work more independently and efficiently on projects. I primarily rely on English resources for troubleshooting, research, and learning — around 90% of the time.",
     aboutMeSecondText:
       "My current goal, in addition to earning income, is to gain more experience and expertise.",
     aboutMeH2Text: "About Me",
@@ -404,7 +405,7 @@ const allTexts = {
     //FirstView
     fullName: "Farshad Arbab",
     // jobTitle: "کارآموز برنامه‌نویسی فرانت‌اند(React)",
-    jobTitle: "Intern Front-End Developer (React)",
+    jobTitle: "Junior Front-End Developer (React)",
     profileImageAlt: "Farshad Arbab profile picture",
     portfoliosButtonText: "Projects",
 
@@ -435,20 +436,6 @@ const allTexts = {
       },
 
       {
-        title: "Snapp Driver Registration",
-        skills: ["React", "HTML", "CSS", "JavaScript"],
-        explaintions: [
-          "FAQ collapsible section",
-          "Using Map to Render Data",
-          "Responsive Design for Mobile, Table, and Desktop",
-        ],
-        userLink: "https://farshadarbab2024.github.io/snapp-landing/",
-        githubLink: "https://github.com/farshadarbab2024/snapp-landing",
-        imageSrc: "/snapp-driver-register.png",
-        imageAlt: "security theme login page",
-      },
-
-      {
         title: "Personal Portfolio Website",
         skills: [
           "React",
@@ -467,6 +454,43 @@ const allTexts = {
         githubLink: "https://github.com/farshadarbab2024/portfolio-website/",
         imageSrc: "/portfolio-website.png",
         imageAlt: "portfolio-website for Farsahd Arbab",
+      },
+      {
+        title: "WordPress Price Automation Tool",
+        skills: [
+          "React",
+          "TypeScript",
+          "HTML",
+          "TailwindCSS",
+          "Ant Design",
+          "Figma",
+          "Framer-motion",
+          "Git",
+          "Zod",
+          "React-hook-form",
+        ],
+        explaintions: [
+          "Use Zod for validation login/signup forms",
+          "Handle get, post, patch, delete apis",
+          "Validate email by sending email verfication code",
+        ],
+        userLink: "https://farshadarbab2024.github.io/",
+        githubLink: "https://github.com/farshadarbab2024/torob-pricing-robot/",
+        imageSrc: "/torob pricing robot.png",
+        imageAlt: "torob pricing robot website",
+      },
+      {
+        title: "Snapp Driver Registration",
+        skills: ["React", "HTML", "CSS", "JavaScript"],
+        explaintions: [
+          "FAQ collapsible section",
+          "Using Map to Render Data",
+          "Responsive Design for Mobile, Table, and Desktop",
+        ],
+        userLink: "https://farshadarbab2024.github.io/snapp-landing/",
+        githubLink: "https://github.com/farshadarbab2024/snapp-landing",
+        imageSrc: "/snapp-driver-register.png",
+        imageAlt: "security theme login page",
       },
     ] as Portfolio[],
     portfoliosTitle: "Projects",
@@ -581,7 +605,9 @@ const allTexts = {
           "Hooks: useState, useRef, useEffect,...",
           "React Router library",
           "map in React",
-          "JSX",
+          "Organize and manage project structure professionally",
+          "Work with APIs (GET, POST, PATCH, DELETE) and handle authentication",
+          "Design, structure, and manage layouts effectively",
           "...",
         ],
       },
@@ -599,6 +625,7 @@ const allTexts = {
           "Functions: Input and Output Types",
           "TypeScript Error Handling",
           "Using TypeScript with React",
+          "Work with type imports and exports",
           "...",
         ],
       },
@@ -614,6 +641,9 @@ const allTexts = {
           "Positioning: absolute, fixed, sticky",
           "Spacing: padding, margin",
           "Typography: font-size, font-weight,...",
+          "Create responsive websites using Tailwind’s breakpoints (sm, md, lg, etc.)",
+          "Define and manage custom colors in index.css",
+          "Apply background gradients, images, etc",
           "...",
         ],
       },
@@ -640,29 +670,17 @@ const allTexts = {
         alt: "Git",
         color: "#F05033",
         details: [
-          "GitHub Pages",
           "Understanding branches",
           "Git basics: git status, git add, git commit",
           "Pushing projects to GitHub repositories",
           "Cloning projects from GitHub",
+          "Merge branches",
+          "Resolve conflicts",
+          "Follow Git best practices (e.g., separate commits, fast merging)",
+          "GitHub Pages",
           "...",
         ],
       },
-
-      // {
-      //     name: "Adobe XD",
-      //     image: "Adobe XD.png",
-      //     alt: "ادوبی ایکس دی",
-      //     color: "#FF61F6",
-      //     details: [
-      //         "Applying borders, backgrounds, opacity, and shadows",
-      //         "Designing user-friendly interfaces" ,
-      //         "Managing typography (line-height, font size, font weight, etc)",
-      //         "Importing and arranging images and assets",
-      //         "Creating responsive designs for mobile, tablet, and desktop",
-      //         "Understanding principles of color theory"
-      //     ]
-      // },
 
       {
         name: "Ant Design",
@@ -678,10 +696,63 @@ const allTexts = {
           "Table (data display with filters & pagination)",
           "Message (notifications)",
           "ConfigProvider (global theming & localization)",
+          "Image uploading, video uploading, and image cropping.",
           "...",
         ],
       },
 
+      {
+        name: "Nextjs",
+        image: "nextjs.png",
+        alt: "framer-motion",
+        color: "black",
+        details: [
+          "Basic usage of Next.js",
+          "Manage packages with pnpm",
+          "Work with Client and Server Components",
+          "...",
+        ],
+      },
+      {
+        name: "Figma",
+        image: "figma.png",
+        alt: "figma",
+        color: "#1abcfd",
+        details: [
+          "Design user-friendly interfaces",
+          "Build reusable components",
+          "Use popular plugins like Iconify",
+          "Create and reuse custom fills",
+          "Draw and export shapes",
+          "Work efficiently with Figma shortcuts",
+          "...",
+        ],
+      },
+
+      {
+        name: "Zustand",
+        image: "zustand.png",
+        alt: "Zustand",
+        color: "#453e38",
+        details: [
+          "Manage global state",
+          "Work with slices",
+          "Create and use stores efficiently",
+          "...",
+        ],
+      },
+      {
+        name: "framer-motion",
+        image: "Framer-motion.png",
+        alt: "framer-motion",
+        color: "#770bff",
+        details: [
+          "Enhance landing pages with user-friendly animations",
+          "initial, WhileInView, animate, ...",
+          "transition, duration, delay, ...",
+          "...",
+        ],
+      },
       {
         name: "Basic SEO Principles",
         image: "Google.png",
@@ -703,21 +774,6 @@ const allTexts = {
           "...",
         ],
       },
-
-      // {
-      //     name: "Zustand",
-      //     image: "zustand.png",
-      //     alt: "Zustand",
-      //     color: "#31AA52",
-      //     details: []
-      // },
-      // {
-      //     name: "framer-motion",
-      //     image: "zustand.png",
-      //     alt: "framer-motion",
-      //     color: "#31AA52",
-      //     details: []
-      // },
     ] as Skill[],
 
     //Not Found Page
