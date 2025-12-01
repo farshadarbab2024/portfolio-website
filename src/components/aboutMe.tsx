@@ -36,8 +36,10 @@ function AboutMe() {
             duration: 1,
           }}
           viewport={{ once: true }}
+          dangerouslySetInnerHTML={{
+            __html: websiteTexts.aboutMeText
+          }}
         >
-          {websiteTexts.aboutMeText}
         </motion.p>
         {/* Second Text and Download Button */}
         <motion.div

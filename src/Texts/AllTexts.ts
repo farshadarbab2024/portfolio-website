@@ -396,9 +396,9 @@ const allTexts = {
 
     //AboutMe
     aboutMeText:
-      "I have hands-on experience working as a Junior Front-End Developer in companies, where I collaborated closely with development teams. Designing, coding, and problem-solving are part of my daily routine. My background in Backend Development and UI/UX Design helps me work more independently and efficiently on projects. I primarily rely on English resources for troubleshooting, research, and learning — around 90% of the time.",
+      "I’m a <b>front-end</b> developer focused on building <b>web applications</b> with <b>ReactJS</b>. I also have experience <b>designing UI/UX</b> interfaces, but I prefer to be a programmer rather than a designer as much as possible. I have experience collaborating with a team. Designing, coding, and problem-solving are part of my daily routine. My background in other fields of programming has helped me develop a better programming mindset.",
     aboutMeSecondText:
-      "My current goal, in addition to earning income, is to gain more experience and expertise.",
+      "Definitely, I can help your company grow — just give me a chance to prove it!",
     aboutMeH2Text: "About Me",
     resumeDownloadText: "Download Resume",
 
@@ -491,6 +491,19 @@ const allTexts = {
         githubLink: "https://github.com/farshadarbab2024/snapp-landing",
         imageSrc: "/snapp-driver-register.png",
         imageAlt: "security theme login page",
+      },
+      {
+        title: "Type Speed Calculation",
+        skills: ["React", "HTML", "TailwindCSS", "TypeScript"],
+        explaintions: [
+          "Calculate accuracy",
+          "Calculate speed",
+          "Show final rating and skill description",
+        ],
+        userLink: "https://farshadarbab2024.github.io/type-speed/",
+        githubLink: "https://github.com/farshadarbab2024/type-speed/",
+        imageSrc: "/type-speed.png",
+        imageAlt: "type speed test website. An opened modal that show your type speed and accuracy rate and describe your situation in typing.",
       },
     ] as Portfolio[],
     portfoliosTitle: "Projects",
@@ -772,6 +785,21 @@ const allTexts = {
           "Relevant file naming",
           "Google Search Console, Analytics, Hotjar",
           "...",
+        ],
+      },
+      {
+        name: "Jest",
+        image: "Jest.svg",
+        alt: "one of my skill is Jest in front-end field",
+        color: "#c63d14",
+        details: [
+          "Familiar with core Jest matchers (toBe, toEqual, toStrictEqual, etc.)", 
+
+          "Write unit tests to verify internal functions", 
+          
+          "Set up and configure Jest in projects", 
+          
+          "Use Jest with TypeScript", 
         ],
       },
     ] as Skill[],
