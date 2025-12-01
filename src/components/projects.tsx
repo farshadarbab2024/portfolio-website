@@ -1,5 +1,5 @@
-import { useLanguageStore } from "../states/Store";
-import type { Project } from "../texts/AllTexts";
+import { useLanguageStore } from "../States/Store";
+import type { Project } from "../Texts/AllTexts";
 import { motion } from "framer-motion";
 import { isDesktop } from "react-device-detect" ; 
 import React from "react";

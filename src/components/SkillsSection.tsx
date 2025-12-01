@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import "../css/SkillSection.css";
-import { useLanguageStore } from "../states/Store";
-import { Skill } from "../texts/AllTexts";
+import { useLanguageStore } from "../States/Store";
+import { Skill } from "../Texts/AllTexts";
 import { motion } from "framer-motion";
 import React from "react";
 function SkillsSection() {

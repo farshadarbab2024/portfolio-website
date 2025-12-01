@@ -1,5 +1,5 @@
 import { DownloadOutlined } from "@ant-design/icons";
-import { useLanguageStore } from "../states/Store";
+import { useLanguageStore } from "../States/Store";
 import { motion } from "framer-motion";
 import { isDesktop } from "react-device-detect";
 

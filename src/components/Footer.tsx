@@ -1,4 +1,4 @@
-import { useLanguageStore } from "../states/Store";
+import { useLanguageStore } from "../States/Store";
 import { motion } from "framer-motion";
 import { Typography } from "antd";
 import React from "react";

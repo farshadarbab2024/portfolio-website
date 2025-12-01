@@ -1,5 +1,5 @@
 import { Button, Result } from "antd";
-import { useLanguageStore } from "../states/Store";
+import { useLanguageStore } from "../States/Store";
 import { SmileOutlined } from "@ant-design/icons";
 import { Link } from "react-router-dom";
 function NotFound() {

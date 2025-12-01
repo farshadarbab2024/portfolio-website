@@ -6,8 +6,8 @@ import Portfolios from "../components/Portfolios";
 import Footer from "../components/Footer";
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { useLanguageStore } from "../states/Store";
-import allTexts from "../texts/AllTexts";
+import { useLanguageStore } from "../States/Store";
+import allTexts from "../Texts/AllTexts";
 import React from "react";
 
 function Landing() {

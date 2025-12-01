@@ -1,9 +1,9 @@
 import './App.css';
 import { Route, Routes } from "react-router-dom" ; 
-import Landing from './pages/Home';
-import NotFound from './pages/NotFound';
+import Landing from './Pages/Home';
+import NotFound from './Pages/NotFound';
 import { ConfigProvider } from 'antd';
-import theme from "./theme/ThemeConfig" ; 
+import theme from "./Theme/ThemeConfig" ; 
 import React from 'react';
 const App: React.FC = () => (
   <ConfigProvider theme={theme}>

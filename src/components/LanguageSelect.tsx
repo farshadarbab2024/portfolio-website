@@ -2,7 +2,7 @@ import { GlobalOutlined, DownOutlined, CheckOutlined } from "@ant-design/icons";
 import { Button, Dropdown } from "antd";
 import "../css/LanguageSelect.css";
 import { useEffect, useState } from "react";
-import { useLanguageStore } from "../states/Store";
+import { useLanguageStore } from "../States/Store";
 import { useNavigate } from "react-router-dom";
 import React from "react";
 function LanguageSelect() {
