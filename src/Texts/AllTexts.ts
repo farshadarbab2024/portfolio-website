@@ -421,42 +421,7 @@ const allTexts = {
     //portfolios
     portfolios: [
       {
-        title: "Login Form",
-        skills: ["React", "HTML", "CSS", "TypeScript", "TailwindCSS"],
-        explaintions: [
-          "Component-based coding in React",
-          "Using hooks: useState, useRef, useEffect",
-          "Using Arrow Functions in JavaScript",
-        ],
-        userLink: "https://farshadarbab2024.github.io/professional_login_page/",
-        githubLink:
-          "https://github.com/farshadarbab2024/professional_login_page",
-        imageSrc: "login-page.png",
-        imageAlt: "security theme login page",
-      },
-
-      {
-        title: "Personal Portfolio Website",
-        skills: [
-          "React",
-          "TypeScript",
-          "HTML",
-          "CSS",
-          "Ant Design",
-          "Adobe XD",
-        ],
-        explaintions: [
-          "Using CSS Grid",
-          "FlexBox in CSS",
-          "Button, Card, and Icons in Ant Design",
-        ],
-        userLink: "https://farshadarbab2024.github.io/portfolio-website/",
-        githubLink: "https://github.com/farshadarbab2024/portfolio-website/",
-        imageSrc: "/portfolio-website.png",
-        imageAlt: "portfolio-website for Farsahd Arbab",
-      },
-      {
-        title: "WordPress Price Automation Tool",
+        title: "Price Automation Tool",
         skills: [
           "React",
           "TypeScript",
@@ -480,6 +445,40 @@ const allTexts = {
         imageAlt: "torob pricing robot website",
       },
       {
+        title: "Personal Portfolio Website",
+        skills: [
+          "React",
+          "TypeScript",
+          "HTML",
+          "CSS",
+          "Ant Design",
+          "Adobe XD",
+        ],
+        explaintions: [
+          "Using CSS Grid",
+          "FlexBox in CSS",
+          "Button, Card, and Icons in Ant Design",
+        ],
+        userLink: "https://farshadarbab2024.github.io/portfolio-website/",
+        githubLink: "https://github.com/farshadarbab2024/portfolio-website/",
+        imageSrc: "/portfolio-website.png",
+        imageAlt: "portfolio-website for Farsahd Arbab",
+      },
+      {
+        title: "Login Form",
+        skills: ["React", "HTML", "CSS", "TypeScript", "TailwindCSS"],
+        explaintions: [
+          "Component-based coding in React",
+          "Using hooks: useState, useRef, useEffect",
+          "Handle complicated background lighting algorithm",
+        ],
+        userLink: "https://farshadarbab2024.github.io/professional_login_page/",
+        githubLink:
+          "https://github.com/farshadarbab2024/professional_login_page",
+        imageSrc: "login-page.png",
+        imageAlt: "security theme login page",
+      },
+      {
         title: "Snapp Driver Registration",
         skills: ["React", "HTML", "CSS", "JavaScript"],
         explaintions: [
@@ -494,7 +493,7 @@ const allTexts = {
       },
       {
         title: "Type Speed Calculation",
-        skills: ["React", "HTML", "TailwindCSS", "TypeScript"],
+        skills: ["React", "HTML", "TailwindCSS", "TypeScript", "Ant Design"],
         explaintions: [
           "Calculate accuracy",
           "Calculate speed",
@@ -503,7 +502,22 @@ const allTexts = {
         userLink: "https://farshadarbab2024.github.io/type-speed/",
         githubLink: "https://github.com/farshadarbab2024/type-speed/",
         imageSrc: "/type-speed.png",
-        imageAlt: "type speed test website. An opened modal that show your type speed and accuracy rate and describe your situation in typing.",
+        imageAlt:
+          "type speed test website. An opened modal that show your type speed and accuracy rate and describe your situation in typing.",
+      },
+      {
+        title: "Character Counter",
+        skills: ["React.js", "TypeScript", "TailwindCSS", "Ant Design"],
+        explaintions: [
+          "Calculate the number of words, characters, sentences, and pages",
+          "Identify the most commonly used characters in your text and show their usage percentage",
+          "Copy and clear the text",
+        ],
+        userLink: "https://farshadarbab2024.github.io/character-counter/",
+        githubLink: "https://github.com/farshadarbab2024/character-counter",
+        imageSrc: "/character-counter.png",
+        imageAlt:
+          "A character counter that count number of characters, words, sentences and pages in your text. Let's you copy or clear your text and also show you the most common use characters. ",
       },
     ] as Portfolio[],
     portfoliosTitle: "Projects",
@@ -793,13 +807,13 @@ const allTexts = {
         alt: "one of my skill is Jest in front-end field",
         color: "#c63d14",
         details: [
-          "Familiar with core Jest matchers (toBe, toEqual, toStrictEqual, etc.)", 
+          "Familiar with core Jest matchers (toBe, toEqual, toStrictEqual, etc.)",
 
-          "Write unit tests to verify internal functions", 
-          
-          "Set up and configure Jest in projects", 
-          
-          "Use Jest with TypeScript", 
+          "Write unit tests to verify internal functions",
+
+          "Set up and configure Jest in projects",
+
+          "Use Jest with TypeScript",
         ],
       },
     ] as Skill[],
