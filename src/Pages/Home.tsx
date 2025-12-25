@@ -30,7 +30,7 @@ function Landing() {
       direction = "ltr";
       oppositeDirection = "rtl";
       document.title =
-        "Junior Front-End Developer (React) | Farshad Arbab's Portfolio Website";
+        "Front-End Developer (React.js) | Farshad Arbab's Portfolio Website";
       sign = 1;
     }
 

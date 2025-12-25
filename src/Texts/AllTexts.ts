@@ -405,7 +405,7 @@ const allTexts = {
     //FirstView
     fullName: "Farshad Arbab",
     // jobTitle: "کارآموز برنامه‌نویسی فرانت‌اند(React)",
-    jobTitle: "Junior Front-End Developer (React)",
+    jobTitle: "Front-End Developer (React.js)",
     profileImageAlt: "Farshad Arbab profile picture",
     portfoliosButtonText: "Projects",
 
