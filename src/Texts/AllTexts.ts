@@ -66,7 +66,7 @@ const allTexts = {
     footerDescription:
       "اگر به هر شکلی احساس کردید من میتوانم برای کسب و کار یا تیم شما مفید باشم، در برقراری ارتباط راحت و بدون تعارف عمل کنید :)",
     email: "Farshadarbab2024@gmail.com",
-    phoneNumber: "09135736069",
+    phoneNumber: "+989930757235",
     phoneNumberLabel: "شماره تماس:",
     emailLabel: "ایمیل: ",
 
@@ -396,9 +396,9 @@ const allTexts = {
 
     //AboutMe
     aboutMeText:
-      "I’m a <b>front-end</b> developer focused on building <b>web applications</b> with <b>ReactJS</b>. I also have experience <b>designing UI/UX</b> interfaces, but I prefer to be a programmer rather than a designer as much as possible. I have experience collaborating with a team. Designing, coding, and problem-solving are part of my daily routine. My background in other fields of programming has helped me develop a better programming mindset.",
+      "I’m a <b>front-end</b> developer focused on building <b>web applications</b> usually with <b>ReactJS</b>. I also have experience <b>designing UI/UX</b> interfaces, but I prefer to be a programmer rather than a designer as much as possible. I have experience collaborating with a team. My background in other fields of programming has helped me develop a better programming mindset.",
     aboutMeSecondText:
-      "Definitely, I can help your company grow — just give me a chance to prove it!",
+      "From my previous experience, I have a bit of UI/UX design experience. ",
     aboutMeH2Text: "About Me",
     resumeDownloadText: "Download Resume",
 
@@ -414,7 +414,7 @@ const allTexts = {
     footerDescription:
       "If in any way you feel that I can be useful for your business or team, feel free to reach out :)",
     email: "Farshadarbab2024@gmail.com",
-    phoneNumber: "+989135736069",
+    phoneNumber: "+989930757235",
     phoneNumberLabel: "Phone Number: ",
     emailLabel: "Email: ",
 
@@ -484,7 +484,7 @@ const allTexts = {
         explaintions: [
           "FAQ collapsible section",
           "Using Map to Render Data",
-          "Responsive Design for Mobile, Table, and Desktop",
+          "Responsive Design for Mobile, Tablet, and Desktop",
         ],
         userLink: "https://farshadarbab2024.github.io/snapp-landing/",
         githubLink: "https://github.com/farshadarbab2024/snapp-landing",
