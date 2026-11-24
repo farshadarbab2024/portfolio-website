@@ -1,8 +1,10 @@
 import { Button, Card, Tag } from "antd";
-import { GithubOutlined } from "@ant-design/icons";
+import { GithubOutlined, UserOutlined } from "@ant-design/icons";
 import { useLanguageStore } from "../States/Store";
 import type { Portfolio } from "../Texts/AllTexts";
 import { motion } from "framer-motion";
+import { RiTeamFill } from "react-icons/ri";
+import { TeamOutlined } from "@ant-design/icons";
 import React from "react";
 function Portfolios() {
   const { websiteTexts, direction } = useLanguageStore();
@@ -39,10 +41,11 @@ function Portfolios() {
                 delay: 0.2 * index,
               }}
               viewport={{ once: true }}
+              onClick={(e) => { if(portfolio.userLink == "#"){e.preventDefault() ; } }}
             >
               <Card
                 className="mt-0 max-w-[100%] md:max-w-[90vw] bg-[#fcfcfc] 
-              h-[550px] relative"
+                h-[550px] relative"
                 hoverable
                 key={"portfolio" + index}
                 cover={
@@ -57,6 +60,12 @@ function Portfolios() {
                   />
                 }
               >
+                <div className="px-4 h-8 bg-[#FCFCFC] absolute top-4 left-4 rounded-[5px] flex items-center justify-center">
+                  <div className="flex gap-[5px]">
+                    {portfolio?.isTeamPortfolio ? <TeamOutlined /> : <UserOutlined />}
+                    <span className="text-[13px]">{portfolio?.isTeamPortfolio ? "Teamwork" : "Individually"}</span>
+                  </div>
+                </div>
                 <span
                   className="text-center block
                             text-[18px] color-black font-bold"
@@ -103,16 +112,18 @@ function Portfolios() {
                   )}
                 </ul>
 
-                <a
-                  href={portfolio.githubLink}
-                  target="_blank"
-                  className="absolute bottom-[20px] right-[24px]"
-                >
-                  <Button className="mt-4">
-                    {websiteTexts.seeInGithubText}
-                    <GithubOutlined style={{ fontSize: "18px" }} />
-                  </Button>
-                </a>
+                {portfolio?.showGithubButton ? (
+                  <a
+                    href={portfolio.githubLink}
+                    target="_blank"
+                    className="absolute bottom-[20px] right-[24px]"
+                  >
+                    <Button className="mt-4">
+                      {websiteTexts.seeInGithubText}
+                      <GithubOutlined style={{ fontSize: "18px" }} />
+                    </Button>
+                  </a>
+                ) : null}
               </Card>
             </motion.a>
           )

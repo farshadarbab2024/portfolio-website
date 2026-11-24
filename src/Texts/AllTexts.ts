@@ -17,10 +17,12 @@ export type Portfolio = {
   title: string;
   skills: string[];
   explaintions: string[];
-  userLink: string;
+  userLink: string | false;
   githubLink: string;
   imageSrc: string;
   imageAlt: string;
+  showGithubButton: boolean;
+  isTeamPortfolio: boolean;
 };
 
 export type Project = {
@@ -85,6 +87,7 @@ const allTexts = {
           "https://github.com/farshadarbab2024/professional_login_page",
         imageSrc: "login-page.png",
         imageAlt: "security theme login page",
+        showGithubButton: false,
       },
 
       {
@@ -99,6 +102,7 @@ const allTexts = {
         githubLink: "https://github.com/farshadarbab2024/snapp-landing",
         imageSrc: "/snapp-driver-register.png",
         imageAlt: "security theme login page",
+        showGithubButton: false,
       },
 
       {
@@ -120,6 +124,7 @@ const allTexts = {
         githubLink: "https://github.com/farshadarbab2024/portfolio-website/",
         imageSrc: "/portfolio-website-persian.png",
         imageAlt: "portfolio-website for Farsahd Arbab",
+        showGithubButton: false,
       },
     ] as Portfolio[],
     portfoliosTitle: "نمونه‌کارها",
@@ -388,7 +393,7 @@ const allTexts = {
 
   English: {
     //Resume Link
-    resumeFileName: "English Resume.pdf",
+    resumeFileName: "English Certification.pdf",
     //LanguageSelect
     languageText: "language",
     persian: "Persian",
@@ -396,16 +401,16 @@ const allTexts = {
 
     //AboutMe
     aboutMeText:
-      "I’m a <b>front-end</b> developer focused on building <b>web applications</b> usually with <b>ReactJS</b>. I also have experience <b>designing UI/UX</b> interfaces, but I prefer to be a programmer rather than a designer as much as possible. I have experience collaborating with a team. My background in other fields of programming has helped me develop a better programming mindset.",
+      "More than <b>6 months of experience</b>, implementing web applications with <b>TypeScript</b> and <b>React</b>. I completed a <b>three-month internship</b> and <b>three months</b> of paid employment as a junior front-end developer at Dadepardas, a company working in fields such as data analysis, AI, hosting, and supporting government and private-sector systems. <br>Apart from that and projects in this portfolio, my prior interest in building cool wordpress plugins led me to explore HTML, CSS, and JavaScript more deeply than other skill sets.",
     aboutMeSecondText:
-      "From my previous experience, I have a bit of UI/UX design experience. ",
+      "Certified as B2 (Upper Intermediate) according to the EF SET Certificate.",
     aboutMeH2Text: "About Me",
-    resumeDownloadText: "Download Resume",
+    resumeDownloadText: "Certification",
 
     //FirstView
     fullName: "Farshad Arbab",
     // jobTitle: "کارآموز برنامه‌نویسی فرانت‌اند(React)",
-    jobTitle: "Front-End Developer (React.js)",
+    jobTitle: "Junior Front-End Developer (React.js)",
     profileImageAlt: "Farshad Arbab profile picture",
     portfoliosButtonText: "Projects",
 
@@ -420,6 +425,30 @@ const allTexts = {
 
     //portfolios
     portfolios: [
+      {
+        title: "Simob", 
+        skills: [
+          "React", 
+          "TypeScript", 
+          "Redux", 
+          "HTML", 
+          "CSS", 
+          "Tailwind CSS", 
+          "Ant Design", 
+          "Framer-motion", 
+        ], 
+        explaintions: [
+          "Taking part as a front-end developer and collaborating with back-end developers", 
+          "Developing a multilingual website, managing language changes through Redux state management.", 
+          "Add, remove and editing advertisements. ", 
+          "Multi-step registration process. Implementing management panel for admin to authorize registration for individuals. ", 
+        ], 
+        userLink: "#", 
+        imageSrc: "/Simob.jpeg", 
+        imageAlt: "Simob website as my portfolio. Inside the panel. ", 
+        showGithubButton: false, 
+        isTeamPortfolio: true, 
+      }, 
       {
         title: "Price Automation Tool",
         skills: [
@@ -443,7 +472,26 @@ const allTexts = {
         githubLink: "https://github.com/farshadarbab2024/torob-pricing-robot/",
         imageSrc: "/torob pricing robot.png",
         imageAlt: "torob pricing robot website",
+        showGithubButton: true,
+        isTeamPortfolio: true,
       },
+
+      {
+        title: "Rotate Slider",
+        skills: ["React", "TypeScript", "Framer Motion", "Tailwind CSS"],
+        explaintions: [
+          "Smooth motion built by Framer Motion library.",
+          "Rendering commanders using map function in TypeScript",
+          "So simple but fun. ",
+        ],
+        userLink: "https://farshadarbab2024.github.io/rotate-slider",
+        githubLink: "https://github.com/farshadarbab2024/rotate-slider",
+        imageSrc: "/rotate-slider.png",
+        imageAlt: "A slider that goes to the next slide by rotation.",
+        showGithubButton: true,
+        isTeamPortfolio: false,
+      },
+
       {
         title: "Personal Portfolio Website",
         skills: [
@@ -463,6 +511,8 @@ const allTexts = {
         githubLink: "https://github.com/farshadarbab2024/portfolio-website/",
         imageSrc: "/portfolio-website.png",
         imageAlt: "portfolio-website for Farsahd Arbab",
+        showGithubButton: false,
+        isTeamPortfolio: false, 
       },
       {
         title: "Login Form",
@@ -477,6 +527,8 @@ const allTexts = {
           "https://github.com/farshadarbab2024/professional_login_page",
         imageSrc: "login-page.png",
         imageAlt: "security theme login page",
+        showGithubButton: false,
+        isTeamPortfolio: false,
       },
       {
         title: "Snapp Driver Registration",
@@ -490,6 +542,8 @@ const allTexts = {
         githubLink: "https://github.com/farshadarbab2024/snapp-landing",
         imageSrc: "/snapp-driver-register.png",
         imageAlt: "security theme login page",
+        showGithubButton: false,
+        isTeamPortfolio: false,
       },
       {
         title: "Type Speed Calculation",
@@ -504,6 +558,8 @@ const allTexts = {
         imageSrc: "/type-speed.png",
         imageAlt:
           "type speed test website. An opened modal that show your type speed and accuracy rate and describe your situation in typing.",
+        showGithubButton: false,
+        isTeamPortfolio: false,
       },
       {
         title: "Character Counter",
@@ -518,6 +574,8 @@ const allTexts = {
         imageSrc: "/character-counter.png",
         imageAlt:
           "A character counter that count number of characters, words, sentences and pages in your text. Let's you copy or clear your text and also show you the most common use characters. ",
+          showGithubButton: false,
+      isTeamPortfolio: false,
       },
     ] as Portfolio[],
     portfoliosTitle: "Projects",
@@ -740,21 +798,21 @@ const allTexts = {
           "...",
         ],
       },
-      {
-        name: "Figma",
-        image: "figma.png",
-        alt: "figma",
-        color: "#1abcfd",
-        details: [
-          "Design user-friendly interfaces",
-          "Build reusable components",
-          "Use popular plugins like Iconify",
-          "Create and reuse custom fills",
-          "Draw and export shapes",
-          "Work efficiently with Figma shortcuts",
-          "...",
-        ],
-      },
+      // {
+      //   name: "Figma",
+      //   image: "figma.png",
+      //   alt: "figma",
+      //   color: "#1abcfd",
+      //   details: [
+      //     "Design user-friendly interfaces",
+      //     "Build reusable components",
+      //     "Use popular plugins like Iconify",
+      //     "Create and reuse custom fills",
+      //     "Draw and export shapes",
+      //     "Work efficiently with Figma shortcuts",
+      //     "...",
+      //   ],
+      // },
 
       {
         name: "Zustand",
@@ -780,42 +838,42 @@ const allTexts = {
           "...",
         ],
       },
-      {
-        name: "Basic SEO Principles",
-        image: "Google.png",
-        alt: "SEO and Google",
-        color: "#31AA52",
-        details: [
-          "SEO-friendly URLs",
-          "Alt text & image optimization",
-          "Semantic HTML tags",
-          "User-friendly UI/UX",
-          "Lazy loading & fast load speed",
-          "Mobile-first & responsive design",
-          "Internal linking (avoid orphan pages)",
-          "Clear site structure (priority pages from home)",
-          "Title & meta tags",
-          "robots.txt & sitemap",
-          "Relevant file naming",
-          "Google Search Console, Analytics, Hotjar",
-          "...",
-        ],
-      },
-      {
-        name: "Jest",
-        image: "Jest.svg",
-        alt: "one of my skill is Jest in front-end field",
-        color: "#c63d14",
-        details: [
-          "Familiar with core Jest matchers (toBe, toEqual, toStrictEqual, etc.)",
+      // {
+      //   name: "Basic SEO Principles",
+      //   image: "Google.png",
+      //   alt: "SEO and Google",
+      //   color: "#31AA52",
+      //   details: [
+      //     "SEO-friendly URLs",
+      //     "Alt text & image optimization",
+      //     "Semantic HTML tags",
+      //     "User-friendly UI/UX",
+      //     "Lazy loading & fast load speed",
+      //     "Mobile-first & responsive design",
+      //     "Internal linking (avoid orphan pages)",
+      //     "Clear site structure (priority pages from home)",
+      //     "Title & meta tags",
+      //     "robots.txt & sitemap",
+      //     "Relevant file naming",
+      //     "Google Search Console, Analytics, Hotjar",
+      //     "...",
+      //   ],
+      // },
+      // {
+      //   name: "Jest",
+      //   image: "Jest.svg",
+      //   alt: "one of my skill is Jest in front-end field",
+      //   color: "#c63d14",
+      //   details: [
+      //     "Familiar with core Jest matchers (toBe, toEqual, toStrictEqual, etc.)",
 
-          "Write unit tests to verify internal functions",
+      //     "Write unit tests to verify internal functions",
 
-          "Set up and configure Jest in projects",
+      //     "Set up and configure Jest in projects",
 
-          "Use Jest with TypeScript",
-        ],
-      },
+      //     "Use Jest with TypeScript",
+      //   ],
+      // },
     ] as Skill[],
 
     //Not Found Page
