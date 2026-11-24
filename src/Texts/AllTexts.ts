@@ -444,7 +444,7 @@ const allTexts = {
           "Multi-step registration process. Implementing management panel for admin to authorize registration for individuals. ", 
         ], 
         userLink: "#", 
-        imageSrc: "/Simob.jpeg", 
+        imageSrc: "/simob.jpeg", 
         imageAlt: "Simob website as my portfolio. Inside the panel. ", 
         showGithubButton: false, 
         isTeamPortfolio: true, 
